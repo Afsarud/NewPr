@@ -12,7 +12,7 @@ namespace NewPr
         {
             int age;
             string fstName = "";
-            String secoundname = "";
+            String secondName = "";
             string address = "";
             string contact = "";
 
@@ -20,7 +20,7 @@ namespace NewPr
             fstName = Console.ReadLine();
 
             Console.WriteLine("Enter your Second name Please : ");
-            secoundname = Console.ReadLine();
+            secondName = Console.ReadLine();
 
             Console.WriteLine("Enter your Age Please : ");
            age=Convert.ToInt16(Console.ReadLine());
@@ -31,7 +31,7 @@ namespace NewPr
             Console.WriteLine("Enter your contact Please :");
             contact = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine(fstName + " " + secoundname + " " + age + " " + address + " " + contact);
+            Console.WriteLine(fstName + " " + secondName + ", " + age + ", " + address + ", " + contact);
             
             Console.ReadLine();
         }
